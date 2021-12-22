@@ -1,0 +1,16 @@
+<div class="announcement-content">
+    <div class="simple-marquee-container">
+        <div class="shortpoint-tickers-title title">
+            <div class="row">
+                <span class="fa fa-bullhorn fa-3x icon" aria-hidden="true"></span>
+                <p class="txt heading">LATEST ANNOUNCEMENT</p>
+            </div>
+            <div class="shortpoint-tickers-tick arrow"></div>
+        </div>
+        <div class="marquee">
+            <ul class="marquee-content-items">
+                <li *ngFor="let announcement of announcementsData">{{announcement.Title}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
